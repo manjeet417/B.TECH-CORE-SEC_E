@@ -56,3 +56,30 @@ test()()()
 // let value = test()
 //  let value2= value()
 //  value2()
+
+
+// 4. higher order function 
+// map , filter , reduce 
+
+// 6.  anonymous function 
+// settimeout (())=>{
+
+// }1000
+
+// 7. self invoking function (IIFE) 
+// to obtain data privacy and to call a function immediately after function scope
+
+function classset(){
+    console.log("classset");
+
+}
+let a= 10
+// function midterm(){
+classset()
+
+midterm()
+
+let test5 = function(){
+      return "sample5"
+}()
+console.log(test5)
