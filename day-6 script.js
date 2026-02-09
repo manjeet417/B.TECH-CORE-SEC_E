@@ -10,5 +10,5 @@ console.log("highlight");
 
 for(let i=0;1<highlight.length;i++){
     highlight[i].style.color="blue";
-    highlight[i].style.fontsize="30px";
+    highlight[i].style.fontsize="30px";`    ``
 }
